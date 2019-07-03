@@ -1,18 +1,18 @@
 {
-    "playing": {
+    "prod": {
         "awscloudformation": {
-            "AuthRoleName": "blog-playing-20190703162454-authRole",
-            "UnauthRoleArn": "arn:aws:iam::136034716472:role/blog-playing-20190703162454-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::136034716472:role/blog-playing-20190703162454-authRole",
+            "AuthRoleName": "blog-prod-20190703172239-authRole",
+            "UnauthRoleArn": "arn:aws:iam::136034716472:role/blog-prod-20190703172239-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::136034716472:role/blog-prod-20190703172239-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "blog-playing-20190703162454-deployment",
-            "UnauthRoleName": "blog-playing-20190703162454-unauthRole",
-            "StackName": "blog-playing-20190703162454",
-            "StackId": "arn:aws:cloudformation:us-east-1:136034716472:stack/blog-playing-20190703162454/1761e500-9daf-11e9-b670-0a79b0f3a14a"
+            "DeploymentBucketName": "blog-prod-20190703172239-deployment",
+            "UnauthRoleName": "blog-prod-20190703172239-unauthRole",
+            "StackName": "blog-prod-20190703172239",
+            "StackId": "arn:aws:cloudformation:us-east-1:136034716472:stack/blog-prod-20190703172239/28adde10-9db7-11e9-9600-12f08cf73b28"
         },
         "categories": {
             "auth": {
-                "blogbed6d307": {}
+                "blogf7684fb9": {}
             }
         }
     }

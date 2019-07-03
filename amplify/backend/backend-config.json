@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"blogbed6d307": {
+		"blogf7684fb9": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation"
 		}

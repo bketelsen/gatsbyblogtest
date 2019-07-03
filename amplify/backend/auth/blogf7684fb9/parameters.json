@@ -1,12 +1,12 @@
 {
-    "identityPoolName": "blogbed6d307_identitypool_bed6d307",
+    "identityPoolName": "blogf7684fb9_identitypool_f7684fb9",
     "allowUnauthenticatedIdentities": false,
-    "lambdaLogPolicy": "blogbe_bed6d307_lambda_log_policy",
-    "openIdLambdaRoleName": "blogbe_bed6d307_openid_lambda_role",
-    "openIdRolePolicy": "blogbe_bed6d307_openid_pass_role_policy",
-    "openIdLambdaIAMPolicy": "blogbe_bed6d307_openid_lambda_iam_policy",
-    "openIdLogPolicy": "blogbe_bed6d307_openid_lambda_log_policy",
-    "userPoolName": "blogbed6d307_userpool_bed6d307",
+    "lambdaLogPolicy": "blogf7_f7684fb9_lambda_log_policy",
+    "openIdLambdaRoleName": "blogf7_f7684fb9_openid_lambda_role",
+    "openIdRolePolicy": "blogf7_f7684fb9_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "blogf7_f7684fb9_openid_lambda_iam_policy",
+    "openIdLogPolicy": "blogf7_f7684fb9_openid_lambda_log_policy",
+    "userPoolName": "blogf7684fb9_userpool_f7684fb9",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -14,9 +14,9 @@
     "mfaTypes": [
         "SMS Text Message"
     ],
-    "roleName": "blogbebed6d307_sns-role",
-    "roleExternalId": "blogbebed6d307_role_external_id",
-    "policyName": "blogbebed6d307-sns-policy",
+    "roleName": "blogf7f7684fb9_sns-role",
+    "roleExternalId": "blogf7f7684fb9_role_external_id",
+    "policyName": "blogf7f7684fb9-sns-policy",
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
     "emailVerificationSubject": "Your verification code",
@@ -27,7 +27,7 @@
     "requiredAttributes": [
         "email"
     ],
-    "userpoolClientName": "blogbebed6d307_app_client",
+    "userpoolClientName": "blogf7f7684fb9_app_client",
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
@@ -36,15 +36,15 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "mfaLambdaRole": "blogbebed6d307_totp_lambda_role",
-    "mfaLambdaLogPolicy": "blogbebed6d307_totp_lambda_log_policy",
-    "mfaPassRolePolicy": "blogbebed6d307_totp_pass_role_policy",
-    "mfaLambdaIAMPolicy": "blogbebed6d307_totp_lambda_iam_policy",
-    "userpoolClientLambdaRole": "blogbebed6d307_userpoolclient_lambda_role",
-    "userpoolClientLogPolicy": "blogbebed6d307_userpoolclient_lambda_log_policy",
-    "userpoolClientLambdaPolicy": "blogbebed6d307_userpoolclient_lambda_iam_policy",
+    "mfaLambdaRole": "blogf7f7684fb9_totp_lambda_role",
+    "mfaLambdaLogPolicy": "blogf7f7684fb9_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "blogf7f7684fb9_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "blogf7f7684fb9_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "blogf7f7684fb9_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "blogf7f7684fb9_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "blogf7f7684fb9_userpoolclient_lambda_iam_policy",
     "userpoolClientSetAttributes": false,
-    "resourceName": "blogbed6d307",
+    "resourceName": "blogf7684fb9",
     "authSelections": "identityPoolAndUserPool",
     "authRoleName": {
         "Ref": "AuthRoleName"
