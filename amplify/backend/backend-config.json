@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"blogbed6d307": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
